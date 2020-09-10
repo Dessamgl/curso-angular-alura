@@ -1,4 +1,15 @@
 # Alurapic
+## Curso - 1 Fundamentos:
+Criação de um sistema que gerencia fotos
+
+O que foi visto:
+- Adquirir os fundamentos, a base para decolar com o framework
+- Aplicar boas práticas desde o início
+- Criar os primeiros componentes e diretivas
+- Aprender a realizar comunicação entre componentes
+- Acelerar o desenvolvimento com Bootstrap 4
+- Dominar a organização em módulos
+- Integrar com o backend NodeJS como exemplo
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.8.
 
