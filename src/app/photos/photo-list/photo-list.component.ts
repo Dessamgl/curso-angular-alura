@@ -2,10 +2,10 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 
 import { Photo } from '../photo/photo';
-import { PhotoService } from '../photo.service';
+import { PhotoService } from '../photo/photo.service';
 
 @Component({
-  selector: 'ap-photo-list',
+  selector: 'app-photo-list',
   templateUrl: './photo-list.component.html',
   styleUrls: ['./photo-list.component.css']
 })
@@ -33,7 +33,7 @@ export class PhotoListComponent implements OnInit {
       .subscribe(photos => {
         this.filter = '';
         this.photos = this.photos.concat(photos);
-        if (!photos.length) this.hasMore = false;
-      })
+        if(!photos.length) this.hasMore = false;
+      });
   }
 }
